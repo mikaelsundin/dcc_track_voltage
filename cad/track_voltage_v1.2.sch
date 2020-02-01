@@ -23466,14 +23466,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="129.54" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="BOOT" gate="A" pin="1"/>
-<pinref part="U$2" gate="G$1" pin="P5"/>
-<wire x1="182.88" y1="142.24" x2="186.69" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="186.69" y1="142.24" x2="186.69" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="P2"/>
@@ -23514,9 +23506,15 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <label x="17.78" y="39.37" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="P3"/>
-<wire x1="182.88" y1="147.32" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
 <label x="199.39" y="147.32" size="1.778" layer="95"/>
+<pinref part="BOOT" gate="A" pin="1"/>
+<pinref part="U$2" gate="G$1" pin="P5"/>
+<wire x1="191.77" y1="147.32" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="142.24" x2="186.69" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="186.69" y1="142.24" x2="186.69" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="186.69" y1="142.24" x2="191.77" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="191.77" y1="142.24" x2="191.77" y2="147.32" width="0.1524" layer="91"/>
+<junction x="186.69" y="142.24"/>
 </segment>
 </net>
 <net name="N$3" class="0">
