@@ -1,3 +1,0 @@
-set path=C:\Program Files (x86)\Arduino\hardware\tools\avr\bin
-
-avrdude -P com9 -c stk500hvsp -p t85
